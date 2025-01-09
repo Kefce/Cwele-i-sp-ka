@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cwele i spółka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .dish {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .dish img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .dish div {
+            flex: 1;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gastronomia - Świat Smaków</h1>
+    </header>
+
+    <nav>
+        <a href="#about">O nas</a>
+        <a href="#recipes">Przepisy</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Gastronomia to sztuka tworzenia i dzielenia się wyjątkowymi smakami. Nasza strona ma na celu przybliżenie Ci tego fascynującego świata, pełnego inspiracji i kreatywności. Poznasz tu różne kuchnie, techniki gotowania oraz przepisy, które zachwycą Twoje podniebienie!</p>
+    </section>
+
+    <section id="recipes">
+        <h2>Przepisy</h2>
+        <div class="dish">
+            <img src="https://via.placeholder.com/150" alt="Zupa pomidorowa">
+            <div>
+                <h3>Zupa pomidorowa</h3>
+                <p>Tradycyjna, aromatyczna zupa, która idealnie rozgrzewa w chłodne dni. Przepis na klasyczną zupę pomidorową z makaronem.</p>
+                <a href="#">Zobacz przepis</a>
+            </div>
+        </div>
+
+        <div class="dish">
+            <img src="https://via.placeholder.com/150" alt="Spaghetti carbonara">
+            <div>
+                <h3>Spaghetti carbonara</h3>
+                <p>Włoska klasyka! Delikatne spaghetti w kremowym sosie z jajek, boczku i parmezanu.</p>
+                <a href="#">Zobacz przepis</a>
+            </div>
+        </div>
+
+        <div class="dish">
+            <img src="https://via.placeholder.com/150" alt="Tiramisu">
+            <div>
+                <h3>Tiramisu</h3>
+                <p>Włoski deser na bazie kawy, mascarpone i biszkoptów. Idealny na każdą okazję!</p>
+                <a href="#">Zobacz przepis</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania lub chcesz podzielić się swoją opinią? Skontaktuj się z nami!</p>
+        <p>Email: kontakt@smaki.pl</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gastronomia - Świat Smaków. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronomia - Świat Smaków</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .dish {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .dish img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .dish div {
+            flex: 1;
+            padding-left: 20px;
+        }
+        .recipe {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .recipe h3 {
+            color: #444;
+        }
+        .recipe ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .recipe li {
+            margin-bottom: 10px;
+        }
+        .reviews {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .review {
+            width: 30%;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gastronomia - Świat Smaków</h1>
+    </header>
+
+    <nav>
+        <a href="#about">O nas</a>
+        <a href="#recipes">Przepisy</a>
+        <a href="#tips">Porady kulinarne</a>
+        <a href="#reviews">Recenzje restauracji</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Gastronomia to sztuka tworzenia i dzielenia się wyjątkowymi smakami. Nasza strona ma na celu przybliżenie Ci tego fascynującego świata, pełnego inspiracji i kreatywności. Poznasz tu różne kuchnie, techniki gotowania oraz przepisy, które zachwycą Twoje podniebienie!</p>
+    </section>
+
+    <section id="recipes">
+        <h2>Przepisy</h2>
+
+        <div class="recipe">
+            <h3>Zupa pomidorowa</h3>
+            <p>Tradycyjna, aromatyczna zupa pomidorowa, która idealnie rozgrzewa w chłodne dni.</p>
+            <ul>
+                <li><strong>Składniki:</strong> 1 kg pomidorów, 1 cebula, 2 ząbki czosnku, 1 marchew, sól, pieprz, 1 łyżka oliwy, bazylia, makaron lub ryż</li>
+                <li><strong>Przygotowanie:</strong> Zaczynamy od podsmażenia cebuli i czosnku na oliwie. Dodajemy pokrojone pomidory, marchewkę i gotujemy, aż warzywa zmiękną. Następnie miksujemy zupę i doprawiamy do smaku.</li>
+            </ul>
+        </div>
+
+        <div class="recipe">
+            <h3>Spaghetti Carbonara</h3>
+            <p>Włoska klasyka – spaghetti w kremowym sosie z jajek, boczku i parmezanu.</p>
+            <ul>
+                <li><strong>Składniki:</strong> 400 g spaghetti, 150 g boczku, 4 jajka, 100 g parmezanu, sól, pieprz, oliwa</li>
+                <li><strong>Przygotowanie:</strong> Ugotuj spaghetti, boczek pokrój i podsmaż na patelni. W misce wymieszaj jajka z parmezanem i pieprzem. Wymieszaj ugotowane spaghetti z boczkiem, a następnie wlej mieszankę jajeczną, mieszaj, aż powstanie kremowy sos.</li>
+            </ul>
+        </div>
+
+        <div class="recipe">
+            <h3>Tiramisu</h3>
+            <p>Włoski deser na bazie kawy, mascarpone i biszkoptów. Idealny na każdą okazję!</p>
+            <ul>
+                <li><strong>Składniki:</strong> 500 g mascarpone, 3 jajka, 150 g cukru, 200 ml kawy, 1 paczka biszkoptów, kakao do posypania</li>
+                <li><strong>Przygotowanie:</strong> Ubij żółtka z cukrem, dodaj mascarpone i wymieszaj. Ubij białka i delikatnie połącz z masą. Biszkopty zanurz w kawie, układaj je w formie, a następnie pokryj masą. Chłodź w lodówce przez co najmniej 4 godziny.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="tips">
+        <h2>Porady kulinarne</h2>
+        <p>Chcesz podnieść swoje umiejętności kulinarne? Oto kilka wskazówek:</p>
+        <ul>
+            <li><strong>Nie bój się eksperymentować</strong> – dodawaj przyprawy i zioła, które poprawią smak Twoich potraw.</li>
+            <li><strong>Świeże składniki</strong> – jakość składników ma ogromny wpływ na smak jedzenia. Zawsze wybieraj świeże produkty!</li>
+            <li><strong>Planowanie</strong> – zanim zaczniesz gotować, przeczytaj cały przepis i przygotuj wszystkie składniki.</li>
+        </ul>
+    </section>
+
+    <section id="reviews">
+        <h2>Recenzje restauracji</h2>
+        <div class="reviews">
+            <div class="review">
+                <h3>Restauracja "Smaki Świata"</h3>
+                <p>Świetne miejsce z wyjątkowym menu, które łączy smaki różnych kultur. Polecam zwłaszcza dania kuchni włoskiej!</p>
+                <p><strong>Ocena:</strong> ⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="review">
+                <h3>Restauracja "Pod Złotym Kurem"</h3>
+                <p>Przytulna atmosfera i znakomita polska kuchnia. Pierogi i żurek to absolutna rewelacja!</p>
+                <p><strong>Ocena:</strong> ⭐⭐⭐⭐</p>
+            </div>
+            <div class="review">
+                <h3>Restauracja "Bistro Francuskie"</h3>
+                <p>Eleganckie miejsce, w którym serwowane są wyborne dania kuchni francuskiej. Idealne na romantyczną kolację.</p>
+                <p><strong>Ocena:</strong> ⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania lub chcesz podzielić się swoją opinią? Skontaktuj się z nami!</p>
+        <p>Email: kontakt@smaki.pl</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gastronomia - Świat Smaków. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
+
